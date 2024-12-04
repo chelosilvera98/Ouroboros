@@ -1,17 +1,23 @@
-import Product from './Product.js';
+import Product from './Product';
 
-function ProductGrid() {
+function ProductGrid({ addToCart }) {
   const products = [
-    { image: 'url_de_imagen', name: 'Producto 1' },
-    { image: 'url_de_imagen', name: 'Producto 2' },
-    { image: 'url_de_imagen', name: 'Producto 3' },
+    { image: '/public/images/tshirts/ts1.png', name: 'T-Shirt 1' },
+    { image: '/public/images/tshirts/ts2.png', name: 'T-Shirt 2' },
+    { image: '/public/images/tshirts/ts3.png', name: 'T-Shirt 3' },
+    { image: '/public/images/tshirts/ts4.png', name: 'T-Shirt 4' },
+    { image: '/public/images/tshirts/ts5.png', name: 'T-Shirt 5' },
+    { image: '/public/images/tshirts/ts6.png', name: 'T-Shirt 6' },
+    { image: '/public/images/tshirts/ts7.png', name: 'T-Shirt 7' },
+    { image: '/public/images/tshirts/ts8.png', name: 'T-Shirt 8' },
+    { image: '/public/images/tshirts/ts9.png', name: 'T-Shirt 9' }
     // Agrega más productos aquí
   ];
 
   return (
     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '20px', padding: '20px' }}>
       {products.map((product, index) => (
-        <Product key={index} image={product.image} name={product.name} />
+        <Product key={index} product={product} addToCart={addToCart} />
       ))}
     </div>
   );
