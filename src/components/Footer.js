@@ -46,7 +46,7 @@ const styles = {
   },
   cartCount: {
     fontWeight: 'bold',
-    color: '#FF0000',
+    color: 'black',
   },
 };
 
