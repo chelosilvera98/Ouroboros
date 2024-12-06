@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 function Footer({ cartCount }) {
   return (
     <footer style={styles.footer}>
@@ -5,14 +7,14 @@ function Footer({ cartCount }) {
         ALL SALES FINAL &copy; 2024, Born From Pain
       </p>
       <div className="cart-icon" style={styles.cartIcon}>
-        <a href="/pages/cart.html" style={styles.link}>
+        <Link to="/cart" style={styles.link}>
           <img
-            src="../assets/images/carrito-de-compras.png"
+            src="../images/carrito-de-compras.png"
             alt="Cart Icon"
             style={styles.image}
           />{' '}
           (<span style={styles.cartCount}>{cartCount}</span>)
-        </a>
+        </Link>
       </div>
     </footer>
   );
@@ -44,7 +46,7 @@ const styles = {
   },
   cartCount: {
     fontWeight: 'bold',
-    color: '#FF0000', // Cambia el color si deseas destacar más el número del carrito
+    color: '#FF0000',
   },
 };
 
