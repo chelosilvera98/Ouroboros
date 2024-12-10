@@ -1,0 +1,30 @@
+const products = [
+    { name: 'T-Shirt 1', image: '/images/tshirts/ts1.png', description: 'Descripción de T-Shirt 1', price: 100 },
+    { name: 'T-Shirt 2', image: '/images/tshirts/ts2.png', description: 'Descripción de T-Shirt 2', price: 100 },
+    { name: 'T-Shirt 3', image: '/images/tshirts/ts3.png', description: 'Descripción de T-Shirt 3', price: 100 },
+    { name: 'T-Shirt 4', image: '/images/tshirts/ts4.png', description: 'Descripción de T-Shirt 4', price: 100 },
+    { name: 'T-Shirt 5', image: '/images/tshirts/ts5.png', description: 'Descripción de T-Shirt 5', price: 100 },
+    { name: 'T-Shirt 6', image: '/images/tshirts/ts6.png', description: 'Descripción de T-Shirt 6', price: 100 },
+    { name: 'T-Shirt 7', image: '/images/tshirts/ts7.png', description: 'Descripción de T-Shirt 7', price: 100 },
+    { name: 'T-Shirt 8', image: '/images/tshirts/ts8.png', description: 'Descripción de T-Shirt 8', price: 100 },
+    { name: 'T-Shirt 9', image: '/images/tshirts/ts9.png', description: 'Descripción de T-Shirt 9', price: 100 },
+    { name: 'T-Shirt 10', image: '/images/tshirts/ts10.png', description: 'Descripción de T-Shirt 10', price: 100 },
+    { name: 'T-Shirt 11', image: '/images/tshirts/ts11.png', description: 'Descripción de T-Shirt 11', price: 100 },
+    { name: 'T-Shirt 12', image: '/images/tshirts/ts12.png', description: 'Descripción de T-Shirt 12', price: 100 },
+    { name: 'T-Shirt 13', image: '/images/tshirts/ts13.png', description: 'Descripción de T-Shirt 13', price: 100 },
+    { name: 'T-Shirt 14', image: '/images/tshirts/ts14.png', description: 'Descripción de T-Shirt 14', price: 100 },
+    { name: 'T-Shirt 15', image: '/images/tshirts/ts15.png', description: 'Descripción de T-Shirt 15', price: 100 },
+    { name: 'T-Shirt 16', image: '/images/tshirts/ts16.png', description: 'Descripción de T-Shirt 16', price: 100 },
+    { name: 'T-Shirt 17', image: '/images/tshirts/ts17.png', description: 'Descripción de T-Shirt 17', price: 100 },
+    { name: 'T-Shirt 18', image: '/images/tshirts/ts18.png', description: 'Descripción de T-Shirt 18', price: 100 },
+    { name: 'T-Shirt 19', image: '/images/tshirts/ts19.png', description: 'Descripción de T-Shirt 19', price: 100 },
+    { name: 'T-Shirt 20', image: '/images/tshirts/ts20.png', description: 'Descripción de T-Shirt 20', price: 100 },
+    { name: 'T-Shirt 21', image: '/images/tshirts/ts21.png', description: 'Descripción de T-Shirt 21', price: 100 },
+    { name: 'T-Shirt 22', image: '/images/tshirts/ts22.png', description: 'Descripción de T-Shirt 22', price: 100 },
+    { name: 'T-Shirt 23', image: '/images/tshirts/ts23.png', description: 'Descripción de T-Shirt 23', price: 100 },
+    { name: 'T-Shirt 24', image: '/images/tshirts/ts24.png', description: 'Descripción de T-Shirt 24', price: 100 },
+    { name: 'T-Shirt 25', image: '/images/tshirts/ts25.png', description: 'Descripción de T-Shirt 25', price: 100 },
+    { name: 'T-Shirt 26', image: '/images/tshirts/ts26.png', description: 'Descripción de T-Shirt 26', price: 100 }
+  ];
+
+export default products;

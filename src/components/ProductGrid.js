@@ -1,18 +1,7 @@
 import Product from './Product';
+import products from './productsData'; // Importa los datos centralizados
 
 function ProductGrid({ addToCart }) {
-  const products = [
-    { image: '/images/tshirts/ts1.png', name: 'T-Shirt 1' },
-    { image: '/images/tshirts/ts2.png', name: 'T-Shirt 2' },
-    { image: '/images/tshirts/ts3.png', name: 'T-Shirt 3' },
-    { image: '/images/tshirts/ts4.png', name: 'T-Shirt 4' },
-    { image: '/images/tshirts/ts5.png', name: 'T-Shirt 5' },
-    { image: '/images/tshirts/ts6.png', name: 'T-Shirt 6' },
-    { image: '/images/tshirts/ts7.png', name: 'T-Shirt 7' },
-    { image: '/images/tshirts/ts8.png', name: 'T-Shirt 8' },
-    { image: '/images/tshirts/ts9.png', name: 'T-Shirt 9' }
-  ];
-
   return (
     <div
       style={{

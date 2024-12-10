@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 function Header() {
   return (
-    <header style={{ display: 'flex', justifyContent: 'space-between', padding: '10px 20px' }}>
+    <header style={{ display: 'flex', justifyContent: 'center', padding: '10px 20px' }}>
       <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
       <img 
           src="/images/ouroboros_logo.png" 
@@ -15,10 +15,10 @@ function Header() {
           }}
         />
       </Link>
-      <nav>
+      {/* <nav>
       <Link to="#" style={{ margin: '0 10px', textDecoration: 'none' }}>Lookbook</Link>
       <Link to="#" style={{ margin: '0 10px', textDecoration: 'none' }}>Info</Link>
-      </nav>
+      </nav> */}
     </header>
   );
 }
